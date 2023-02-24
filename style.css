@@ -153,18 +153,24 @@ main section{
 }
 
 #match-view{
-    width:650px; 
+    width:650px;
+    height: 1000px; 
     background-color: white;
     border-radius:10px;
+
 }
 
 #right-side-bar{
     width: 328px;
+    position: fixed;
+    top:160px;
+    right: 200px;
 }
 
 #right-side-bar img{
-    width: 100%;
+    width:100%;
     margin-top: 10px;
     margin-left:20px;
     margin-bottom: 10px;
+    border-radius: 2px;
 }
