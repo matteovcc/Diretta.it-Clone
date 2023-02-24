@@ -1,6 +1,7 @@
 body{
     letter-spacing: 1px;
     background-color: #e3e9e9;
+    margin:0
 }
 
 #primabarra{
@@ -19,7 +20,7 @@ body{
 #primabarra > img{
     margin-left:300px;
     width: 100px;
-    height: 80px;
+    
     margin-top: 10px;
 }
 #risultati{
@@ -27,6 +28,11 @@ body{
     margin-right: 10px;
     border-bottom: 4px solid rgb(239, 23, 193);
     width: 130px;
+    background-color: #002937;
+    border-left:none;
+    border-top:none;
+    border-right:none;
+
 }
 #news{
     width: 130px;
@@ -68,7 +74,7 @@ body{
 
 #secondabarra > button{
     margin-top: 20px;
-    color: #888888;
+    color: #555e61;
     font-weight: bold;
     background-color: #e3e9e9;
     border:transparent;
@@ -101,4 +107,64 @@ body{
 }
 hr{
     opacity: 0.5;
+}
+
+main{
+    display:flex;
+    justify-content: center;
+    font-family: 'Oxygen', sans-serif;
+}
+    
+main section{
+    margin-top:15px;
+    
+}
+#left-side-bar{
+    width: 180px;
+}
+#left-side-bar-heading{
+    display: inline-flex;
+}
+#left-side-bar hr{
+    margin-right:3px;
+}
+#left-side-bar h4{
+    text-align: center;
+    font-weight: bold;
+}
+#left-side-bar button{
+    color: #555e61;
+    background-color: #e3e9e9;
+    width: 160px;
+    text-align: left;
+    border:none;
+    margin-top: 6px;
+    margin-bottom:6px;
+
+    
+}
+
+#left-side-bar button:hover{
+    font-weight: bold;
+}
+#left-side-bar a{
+    text-decoration:none;
+    display: block;
+}
+
+#match-view{
+    width:650px; 
+    background-color: white;
+    border-radius:10px;
+}
+
+#right-side-bar{
+    width: 328px;
+}
+
+#right-side-bar img{
+    width: 100%;
+    margin-top: 10px;
+    margin-left:20px;
+    margin-bottom: 10px;
 }
