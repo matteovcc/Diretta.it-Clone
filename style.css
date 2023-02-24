@@ -199,3 +199,31 @@ main section{
 #data-scroll{
     margin-left:140px;
 }
+
+.event-heading{
+    background-color: #fff2ce;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color:#555e61;
+    margin-top: 15px;
+    margin-left:10px;
+    margin-right:10px;
+    height: 30px;
+    
+}
+
+.img-space{
+    margin-right: 5px;
+    
+}
+
+.event-heading .span-spacing{
+    font-size:12px;
+    margin-top:8px;
+}
+.event-heading a{
+    color: #555e61;
+    margin-top:2px;
+    margin-right: 6px
+}
