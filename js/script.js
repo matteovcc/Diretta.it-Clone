@@ -1,12 +1,12 @@
-var dataAttuale = new Date();
-var daysOfWeek = ["Dom", "Lun", "Mar", "Mer", "Gio", "Ven", "Sab"];
+let dataAttuale = new Date();
+let daysOfWeek = ["Dom", "Lun", "Mar", "Mer", "Gio", "Ven", "Sab"];
 
 
 function mostraData() {
-  var giorno = dataAttuale.getDate();
-  var mese = dataAttuale.getMonth() + 1;
-  var data = giorno + "/" + mese;
-  var day = daysOfWeek[dataAttuale.getDay()];
+  let giorno = dataAttuale.getDate();
+  let mese = dataAttuale.getMonth() + 1;
+  let data = giorno + "/" + mese;
+  let day = daysOfWeek[dataAttuale.getDay()];
 
   document.getElementById("data-scroll").innerHTML =  data + " "+ day;
 }
@@ -27,4 +27,21 @@ buttons.forEach(function(button) {
     
 
   });
+});
+
+
+const searchButton = document.getElementById('search-button');
+const overlayButton = document.getElementById('overlay-button');
+const searchContainer = document.getElementById('search-container');
+const searchInput = document.getElementById('search-input');
+
+searchButton.addEventListener('click', () => {
+  
+  overlayButton.style.display = 'block';
+  searchContainer.style.display = 'block';
+  searchInput.focus();
+});
+overlayButton.addEventListener('click', () => {
+  overlayButton.style.display = 'none';
+  searchContainer.style.display = 'none';
 });

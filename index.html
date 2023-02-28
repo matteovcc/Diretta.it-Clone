@@ -31,9 +31,14 @@
             <p>NEWS</p>
         </div>
         <div id="icons">
-        <button class="nav-icon">
+        <button class="nav-icon" id="search-button">
             <i class="fas fa-search"></i>
         </button>
+        <div id="overlay-button"></div>
+          <div id="search-container">
+            <input type="text" id="search-input" placeholder="Digita qui la tua ricerca">
+            <p>Per favore inseriscci almeno 3 caratteri. I risultati verranno mostrati subito qui</p>
+         </div>
         <button class="nav-icon">
             <i class="fas fa-user"></i>
             
@@ -86,7 +91,7 @@
             <button class="btn-match">Live</button>
             <button class="btn-match">Conclusi</button>
             <button class="btn-match">Programma</button>
-            <button class="btn-match" id="data-scroll" onclick="avanzaGiorno()">DATA</button>
+            <button class="btn-match" id="data-scroll" onclick="avanzaGiorno()"><i class="far fa-calendar-alt"></i>DATA</button>
             </div>
             
             <div class="event-heading"><span class="span-spacing"><img src="france.svg" width="15px" class="img-space">FRANCIA: <a href="#">Ligue 1</a></span><a href=""><span class="span-spacing">Classifiche</span></a></div>
