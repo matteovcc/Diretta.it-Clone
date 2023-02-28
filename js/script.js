@@ -30,10 +30,10 @@ buttons.forEach(function(button) {
 });
 
 
-const searchButton = document.getElementById('search-button');
-const overlayButton = document.getElementById('overlay-button');
-const searchContainer = document.getElementById('search-container');
-const searchInput = document.getElementById('search-input');
+let searchButton = document.getElementById('search-button');
+let overlayButton = document.getElementById('overlay-button');
+let searchContainer = document.getElementById('search-container');
+let searchInput = document.getElementById('search-input');
 
 searchButton.addEventListener('click', () => {
   

@@ -254,9 +254,11 @@ main section{
   }
 
   #search-input{
-    width: 100%;
+    width: 98%;
     border-radius: 5px;
-    padding: 5px
+    padding: 5px;
+    
+
   }
   
   #overlay-button {
