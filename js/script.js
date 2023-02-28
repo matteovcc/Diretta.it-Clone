@@ -17,3 +17,14 @@ function avanzaGiorno() {
 }
 
 mostraData();
+
+let buttons = document.querySelectorAll(".btn-match");
+
+buttons.forEach(function(button) {
+  button.addEventListener("click", function() {
+    button.style.backgroundColor = "#ff0046";
+    button.style.color = "white";
+    
+
+  });
+});

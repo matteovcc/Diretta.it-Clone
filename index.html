@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diretta Clone </title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font.awesom.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
@@ -46,13 +47,13 @@
         
             <button id="start-button"><i class="fa-solid fa-star"></i>Preferiti</button>
             <button id="calcio"><i class="far fa-futbol"></i>Calcio</button>
-            <button><i class="far fa-racquet"></i></i>Tennis</button>
-            <button><i class="fas fa-basketball-hoop"></i></i></i></i>Basket</button>
+            <button><i class="far fa-tennis-ball"></i>Tennis</button>
+            <button><i class="fal fa-basketball-ball"></i>Basket</button>
             <button><i class="fas fa-volleyball-ball"></i>Volley</button>
             <button><i class="far fa-hockey-puck"></i>Hockey</button>
-            <button><i class="far fa-snowflakes"></i>Sport Invernali</button>
-            <button>Snooker</button>
-            <button><i class="far fa-golf-club"></i>Golf</button>
+            <button><i class="fad fa-snowflake"></i>Sport Invernali</button>
+            <button><i class="fas fa-ball-pile"></i>Snooker</button>
+            <button><i class="fal fa-golf-ball"></i>Golf</button>
             <button id="finish-button"><i class="far fa-arrow-alt-circle-down"></i>Più Sport</button>
            
         </div>
@@ -80,11 +81,13 @@
 
         </section>
         <section id="match-view">
+            <div id="btn-scroll">
             <button class="btn-match">Tutte</button>
             <button class="btn-match">Live</button>
             <button class="btn-match">Conclusi</button>
             <button class="btn-match">Programma</button>
             <button class="btn-match" id="data-scroll" onclick="avanzaGiorno()">DATA</button>
+            </div>
             
             <div class="event-heading"><span class="span-spacing"><img src="france.svg" width="15px" class="img-space">FRANCIA: <a href="#">Ligue 1</a></span><a href=""><span class="span-spacing">Classifiche</span></a></div>
             <div class="event"></div>
