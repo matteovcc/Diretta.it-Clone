@@ -7,18 +7,18 @@ body{
 #primabarra{
     background-color: #001e28;
     color: #fff;
-    height: 10vh;
+    height: 12vh;
     font-family: 'Space Grotesk', sans-serif;
     display:flex;
     letter-spacing: 1px;
 }
 #primabarra > span{
-    margin-top:30px;
+    margin-top: 33px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 22px;
 }
 #primabarra > img{
-    margin-left:300px;
+    margin-left:160px;
    
     
     margin-top: 10px;
@@ -42,7 +42,7 @@ body{
 }
 #risultati > p, #news > p{
     text-align: center;
-    margin-top: 35px;
+    margin-top: 40px;
     font-weight: bold;
     font-size: 13px;
 }
@@ -51,7 +51,7 @@ body{
 }
 #icons{
     margin-left:350px;
-    margin-top:20px;
+    margin-top:30px;
     border-radius:20px;
 }
 
@@ -95,7 +95,7 @@ body{
 
 
 #start-button{
-    margin-left:250px;
+    margin-left: 180px;
 }
 #finish-button{
     margin-left:30px;
@@ -112,7 +112,7 @@ hr{
 main{
     display:flex;
     justify-content: center;
-    margin-right: 180px;
+    margin-right: 300px;
     font-family: 'Oxygen', sans-serif;
 }
     
@@ -124,10 +124,12 @@ main section{
     width: 180px;
 }
 #left-side-bar-heading{
-    display: inline-flex;
+    text-align: center;
+    margin-right: 10px;
 }
 #left-side-bar hr{
-    margin-right:3px;
+    margin-right:20px;
+    
 }
 #left-side-bar h4{
     text-align: center;
@@ -166,7 +168,7 @@ main section{
     width: 328px;
     position: fixed;
     top:160px;
-    right: 110px;
+    right: 130px;
 }
 
 #right-side-bar img{
@@ -215,6 +217,7 @@ main section{
 
 .img-space{
     margin-right: 5px;
+    margin-left: 5px;
     
 }
 
